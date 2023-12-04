@@ -1,0 +1,16 @@
+form{
+    text-align: center;
+    color: rgb(243, 56, 9);
+}
+
+h1{
+    text-align: center;
+    color: brown;
+}
+button{
+    background-color: rgb(137, 137, 146);
+}
+
+body{
+    background-image: url(img/imagem.jpg);
+}

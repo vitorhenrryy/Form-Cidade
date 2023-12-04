@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytle.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form name="form1" method="post" action="http://hebertphp.awardspace.us/recebe.php" &gt; <!--- Criar um campo para
+        RA e senha Criar um botão para envio -->
+        <br>
+        <label for="ra">RA </label><input type="number" name="ra" id="ra" placeholder="Digite o RA" required
+            autofocus><br>
+            <br>
+        <label for="senha">Senha</label> <input type="password" name="senha" id="senha" placeholder="Digite a senha"
+            required><br>
+            <br>
+        Data <input type="datetime-local" name="data" id="data"><br>
+        <br>
+        UF<select name="uf" id="uf"><br>
+            <option value="">Selecione</option>
+
+        </select>
+        Semestre<select name="semestre" id="semestre">
+            <option value="">Selecione</option><br>
+            <br>
+
+        </select><br>
+        <br>
+        Mensagem <textarea name="msg" id="msg" rows="5"></textarea><br>
+        <br>
+        <button type="submit">Enviar!!</button>
+    </form>
+    <script src="java.js"></script>
+</body>
+
+</html>
